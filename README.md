@@ -20,3 +20,8 @@ https://zustand.docs.pmnd.rs/getting-started/introduction
 ```
 https://www.youtube.com/watch?v=nutJS8u4RtQ
 ```
+
+* Outro
+```
+aaa
+```

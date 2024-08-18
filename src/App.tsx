@@ -1,8 +1,11 @@
-import { Todo } from './components/Todo'
+import { AvailableCart  } from "./components/Car/AvailableCart"
+import { Cart  } from "./components/Car/Cart"
+
 function App() {
   return (
     <>
-      <Todo />
+      <AvalableProducts />
+      <Cart />
     </>
   )
 }
