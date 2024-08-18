@@ -5,7 +5,7 @@ import { useTaskStore } from "../../store/tasks";
 
 export function Todo(){
     const [newTask, setNewTask] = useState('');
-    const { tasks, addTask} = useTaskStore();
+    const { tasks, addTask, slogan} = useTaskStore();
     // const store = useTaskStore();
 
     const handleAddTask = (e: FormEvent) =>{
@@ -17,6 +17,7 @@ export function Todo(){
     }
     return(
         <>
+            <h2>{slogan}</h2>
             <form onSubmit={handleAddTask}>
                 <p>Você tem {tasks.length} tarefas em aberto</p>
                 <input 
