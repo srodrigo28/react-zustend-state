@@ -1,9 +1,9 @@
 import { FormEvent, useState } from "react";
 import { Item } from "./item";
 import './todo.css'
-import { useTaskStore } from "../../store/tasks";
+import { useTaskStore } from "../../store/tasks2";
 
-export function Todo(){
+export function Todo2(){
     const [newTask, setNewTask] = useState('');
     const { tasks, addTask, slogan} = useTaskStore();
     // const store = useTaskStore();

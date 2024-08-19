@@ -20,7 +20,7 @@ type CardStore = {
     removeFromCart: (id: number) => void;
 }
 // 4. Construtores
-export const useCartStore = create<CardStore>((set) => {
+export const useCartStore3 = create<CardStore>((set) => {
     return {
         cart: [],
         availableItems: initialItems,

@@ -1,4 +1,4 @@
-import { useCartStore } from "../../store/CartStore"
+import { useCartStore } from "../../store/CartStore2"
 export const AvailableProducts = () => {
     // const [items, addToCard] = useCartStore( (state) => [state.availableItems, state.addToCard])
     const items = useCartStore( state => state.availableItems)
@@ -15,7 +15,9 @@ export const AvailableProducts = () => {
             <ul>
                 { items.map(item => (
                     <li key={item.id}>
-                        {item.product} - {item.category} - { formatter.format(item.price) }
+                        {item.product} - 
+                        {item.category} - 
+                        { formatter.format(item.price) }
                         <button onClick={ () => addToCard(item)}>Adicionar</button>
                     </li>
                 ))}

@@ -15,6 +15,9 @@ npm i zustand
 https://zustand.docs.pmnd.rs/getting-started/introduction
 ```
 
+#### Rodando o projeto
+* npm run dev
+
 #### Ref.
 * Matheus fraga
 ```

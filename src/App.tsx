@@ -1,13 +1,9 @@
-import { AvailableProducts } from "./components/AppCart/AvailableProducts"
-import { Cart } from "./components/AppCart/Cart"
-import { Total } from "./components/AppCart/Total"
+import { AppCart3 } from "./components/AppCart3"
 
 function App() {
   return (
     <>
-      <Total />
-      <AvailableProducts />
-      <Cart />
+      <AppCart3 />      
     </>
   )
 }

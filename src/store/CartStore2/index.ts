@@ -1,25 +1,25 @@
 import { create } from 'zustand' // biblioteca usada
-// 1. tipagem do item
+// 1. tipagem do item MODEL
 type Item = {
     id: number
     product: string
     category: string
     price: number
 }
-// 2. carga inicial pode vim da api
+// 2. carga inicial pode vim da api REPOSITORE
 const initialItems : Item[] = [
     { id: 1, product: "TV",         category: "SmartTV",   price: 2000 },
     { id: 2, product: "Samsung i3", category: "Notebooks", price: 2500 },
     { id: 3, product: "PS4 Pro",    category: "Consoles",  price: 3000 }
 ]
-// 3. Metodos services
+// 3. Metodos services SERVICE
 type CardStore = {
     cart: Item[];
     availableItems: Item[];
     addToCard: (item: Item) => void;
     removeFromCart: (id: number) => void;
 }
-// 4. Construtores
+// 4. Construtores CONTROLLERS
 export const useCartStore = create<CardStore>((set) => {
     return {
         cart: [],
