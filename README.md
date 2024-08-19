@@ -21,7 +21,7 @@ https://zustand.docs.pmnd.rs/getting-started/introduction
 https://www.youtube.com/watch?v=nutJS8u4RtQ
 ```
 
-* Outro
+* João Bibiano
 ```
-aaa
+https://www.youtube.com/watch?si=Mm5LpCh9YkBjWjQF&v=tR8j8NkQ29k&feature=youtu.be
 ```

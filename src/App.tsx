@@ -1,10 +1,12 @@
-import { AvailableCart  } from "./components/Car/AvailableCart"
-import { Cart  } from "./components/Car/Cart"
+import { AvailableProducts } from "./components/AppCart/AvailableProducts"
+import { Cart } from "./components/AppCart/Cart"
+import { Total } from "./components/AppCart/Total"
 
 function App() {
   return (
     <>
-      <AvalableProducts />
+      <Total />
+      <AvailableProducts />
       <Cart />
     </>
   )
